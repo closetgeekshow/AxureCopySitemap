@@ -1,5 +1,6 @@
 /*
-    
+    Tested on Axure RP10.0.0.3897
+
     When the script is run it will copy your full (visible) sitemap tree as a CSV-formatted file
     into your clipboard    
 
