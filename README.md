@@ -15,6 +15,9 @@ Test file was generated on Axure RP10.0.0.3897. This script has been tested on l
 Won't work when pasted into Firefox, is there a workaround? 
 
 ## Future Ideas
+### Online Generator
+Make a page with configuration options to customize script
+
 ### How can this work *inside* of Axure? 
 Can it? Current when the bookmarklet code is run in a javascript pseudo-protocol in an Open Link action, it does not work.
 
@@ -29,4 +32,24 @@ Not sure if that's a good idea or not, but I do want to try just because. You ca
 
 ### How do I replace the CSV file format with the actual XLSX format? 
 I want to be able to indent nested children in the output as well as include all functions, it'd be nice to have most of the work done for me with script
+
+ /* 
+        This is the key bit of this whole thing. $axure is a javascript 
+        object present on all prototypes and contains all the metadata 
+        and code that makes it all work
+
+        if you dig through that object (there's all kinds of interesting stuff in there)
+        $axure.document.sitemap.rootNodes is an array of objects containing all the
+        information needws to make the sitemap tree display in the flyout
+
+        OBJECT STRUCTURE
+
+        id,
+        pageName,
+        type (wireframe|flow|folder),
+        url
+        children (optional) - its presence indicates that this page has child pages 
+        organized under it, child objects repeat this object's structure.
+    */
+
 
