@@ -23,7 +23,10 @@ Lines 3 to 6 at the beginning of the file configure the output
 This script can be pasted into the console in Chrome (it runs into a security issue on Firefox), but this will get annoying. 
 
 ### Convert to a bookmarket 
-It can be converted to a bookmarklet and placed in your bookmark toolbar for quick access, I don't quite understand what that process entails but I used this tool and it works fine: https://caiorss.github.io/bookmarklet-maker/
+1. It can be converted to a bookmarklet and placed in your bookmark toolbar for quick access, I don't quite understand what that process entails but I used this tool and it works fine: https://caiorss.github.io/bookmarklet-maker/
+2. Add a bookmark to Chrome or Firefox, and paste the converted javascript of either of these files as the URL for the bookmarket.
+3. Click on the bookmark to copy the sitemap to the clipboard
+4. Paste inside a spreadsheet or an Axure Repeater for reuse
 
 ## Compatibility notes
 Test file was generated on Axure RP10.0.0.3897. This script has been tested on local prototypes in RP10 and on cloud prototypes in RP10 and RP9.
