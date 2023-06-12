@@ -11,7 +11,7 @@ I have pregenerated bookmarklets, that outputs the sitemap in id, page, type, ur
 [With Header Row](AxureCopySitemap.Header.Bookmarklet.js) | [Without Header Row](AxureCopySitemap.NoHeader.Bookmarklet.js)
 
 ### Configure Settings
-Lines 3 to 6 at the beginning of the file configure the output
+Configuration options are at the top between  /\* Configuration Start \*/ and /\* Configuration End \*/
 - **columnOrder**: an array defining the a column's inclusion and order,
    - Default value: ["id","page","type","url"]
    - valid options are "id","page","type","url" and "". 
