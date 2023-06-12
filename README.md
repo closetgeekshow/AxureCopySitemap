@@ -18,7 +18,7 @@ Configuration options are at the top between  /\* Configuration Start \*/ and /\
    - An empty string in this array will insert a blank column
    - **Take Note:** A blank column will overwrite any existing data when pasted in your spreadsheet. I hope to workaround this issue if/when I add in XLSX as an output format. 
 - **includeHeader**: set to true to include column names in first row of output 
-- **indentChildren**: set to true to prepend child page names with spaces
+- **indentChildren**: set to true to prepend child page names with indentCharacter
 - **indentCount**: the number of indentCharacters to indent by
 - **indentCharacter**: the character to indent with, defaults to space
 
