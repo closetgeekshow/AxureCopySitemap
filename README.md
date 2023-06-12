@@ -26,6 +26,11 @@ This script can be pasted into the console in Chrome (it runs into a security is
 3. Click on the bookmark to copy the sitemap to the clipboard
 4. Paste inside a spreadsheet or an Axure Repeater for reuse
 
+## Contact
+Brent Morris - Twitter: [@closetgeekshow](https://twitter.com/closetgeekshow) | Mastodon: [@closetgeekshow@c.im](https://c.im/@Closetgeekshow) - Email: [closetgeekshow@gmail.com](mailto:closetgeekshow@gmail.com)
+
+Project Link: https://github.com/your_username/repo_name
+
 ## Compatibility notes
 Test file was generated on Axure RP10.0.0.3897. This script has been tested on local prototypes in RP10 and on cloud prototypes in RP10 and RP9.
 
