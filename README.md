@@ -19,7 +19,7 @@ Lines 3 to 6 at the beginning of the file configure the output
    - **Take Note:** A blank column will overwrite any existing data when pasted in your spreadsheet. I hope to workaround this issue if/when I add in XLSX as an output format. 
 - **includeHeader**: set to true to include column names in first row of output 
 - **indentChildren**: set to true to prepend child page names with spaces
-- **indentSpaces**: the number of spaces to indent by
+- **indentCount**: the number of indentCharacters to indent by
 - **indentCharacter**: the character to indent with, defaults to space
 
 ### Paste in console
