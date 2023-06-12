@@ -3,7 +3,7 @@ if (typeof $axure !== "undefined") {
     const columnOrder = ["id", "page", "type", "url"]; // valid options: ["id","page","type","url","" (blank column)]
     const includeHeader = true; // set to true to include column names in first row of output 
     const indentChildren = true; // set to true to prepend child page names with spaces
-    const indentSpaces = 4; // the number of spaces to indent by
+    const indentCount = 4; // the number of indentCharacters to indent by
     const indentCharacter = " ";
     /* Configuration End */
     const sitemapArray = $axure.document.sitemap.rootNodes;
@@ -13,7 +13,7 @@ if (typeof $axure !== "undefined") {
     if (includeHeader) {
       tsvData.unshift(columnOrder);
     }
-  
+    
     const tsvOutput = convertToTSV(tsvData);
     copyToClipboard(tsvOutput);
   
@@ -22,7 +22,7 @@ if (typeof $axure !== "undefined") {
   
       for (const node of tree) {
         const { id, pageName: page, type, url, children } = node;
-        const indent = indentChildren ? indentCharacter.repeat(indentSpaces * level) : '';
+        const indent = indentChildren ? indentCharacter.repeat(indentCount * level) : '';
         const indentedPage = indent + page;
         const row = columnOrder.map(column => {
           if (column === "") {
