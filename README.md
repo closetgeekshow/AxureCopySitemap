@@ -12,10 +12,15 @@ I have pregenerated bookmarklets, that outputs the sitemap in id, page, type, ur
 
 ### Configure Settings
 Lines 3 to 6 at the beginning of the file configure the output
-- **columnOrder**: an array defining the a column's inclusion and order, default: ["id","page","type","url"]
+- **columnOrder**: an array defining the a column's inclusion and order,
+   - Default value: ["id","page","type","url"]
+   - valid options are "id","page","type","url" and "". 
+   - An empty string in this array will insert a blank column
+   - **Take Note:** A blank column will overwrite any existing data when pasted in your spreadsheet. I hope to workaround this issue if/when I add in XLSX as an output format. 
 - **includeHeader**: set to true to include column names in first row of output 
 - **indentChildren**: set to true to prepend child page names with spaces
 - **indentSpaces**: the number of spaces to indent by
+- **indentCharacter**: the character to indent with, defaults to space
 
 ### Paste in console
 This script can be pasted into the console in Chrome (it runs into a security issue on Firefox), but this will get annoying. 
