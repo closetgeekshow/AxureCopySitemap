@@ -10,7 +10,8 @@ Edit the configuration variables at the top of the page to suit your liking.
 ### Quick Starts
 I have pregenerated bookmarklets, that outputs the sitemap in id, page, type, url order.
 
-With Header Row | Without Header Row
+Add a bookmark to Chrome or Firefox, and paste the contents of either of these files as the URL for the bookmarket
+[With Header Row](AxureCopySitemap.Header.Bookmarklet.js?raw=1) | [Without Header Row](AxureCopySitemap.NoHeader.Bookmarklet.js?raw=1)
 
 ### Configure Settings
 Lines 3 to 6 at the beginning of the file configure the output
@@ -27,6 +28,8 @@ It can be converted to a bookmarklet and placed in your bookmark toolbar for qui
 
 ## Compatibility notes
 Test file was generated on Axure RP10.0.0.3897. This script has been tested on local prototypes in RP10 and on cloud prototypes in RP10 and RP9.
+
+I have not yet tested with any other browsers beyond Chrome and Firefox. 
 
 ## Bugs
 Won't work when pasted into Firefox, is there a workaround? 
