@@ -23,7 +23,7 @@ Configuration options are at the top between  /\* Configuration Start \*/ and /\
 - **indentCharacter**: the character to indent with, defaults to space
 
 ### Paste in console
-This script can be pasted into the console in Chrome (it runs into a security issue on Firefox), but this will get annoying. 
+This script can be pasted into the console in Chrome and Edge (it runs into a security issue on Firefox), but this will get annoying over time. I think a bookmarklet will make for a better experience, but it does have a few manual steps. 
 
 ### Convert to a bookmarket 
 1. It can be converted to a bookmarklet and placed in your bookmark toolbar for quick access, I don't quite understand what that process entails but I used this tool and it works fine: https://caiorss.github.io/bookmarklet-maker/
@@ -41,7 +41,7 @@ Project Link: [https://github.com/closetgeekshow/AxureCopySitemap](https://githu
 ## Compatibility notes
 Test file was generated on Axure RP10.0.0.3897. This script has been tested on local prototypes in RP10 and on cloud prototypes in RP10 and RP9.
 
-I have not yet tested with any other browsers beyond Chrome and Firefox. 
+I have not yet tested the bookmarklet with any other browsers beyond Chrome, Firefox and Edge. 
 
 ## Bugs
 Won't work when pasted into Firefox, is there a workaround? 
