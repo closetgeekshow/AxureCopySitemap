@@ -27,7 +27,9 @@ This script can be pasted into the console in Chrome (it runs into a security is
 4. Paste inside a spreadsheet or an Axure Repeater for reuse
 
 ## Contact
-Brent Morris - Twitter: [@closetgeekshow](https://twitter.com/closetgeekshow) | Mastodon: [@closetgeekshow@c.im](https://c.im/@Closetgeekshow) | Email: [closetgeekshow@gmail.com](mailto:closetgeekshow@gmail.com)
+Brent Morris
+
+Twitter: [@closetgeekshow](https://twitter.com/closetgeekshow) | Mastodon: [@closetgeekshow@c.im](https://c.im/@Closetgeekshow) | Email: [closetgeekshow@gmail.com](mailto:closetgeekshow@gmail.com)
 
 Project Link: [https://github.com/closetgeekshow/AxureCopySitemap](https://github.com/closetgeekshow/AxureCopySitemap)
 
