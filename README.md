@@ -11,7 +11,8 @@ Edit the configuration variables at the top of the page to suit your liking.
 I have pregenerated bookmarklets, that outputs the sitemap in id, page, type, url order.
 
 Add a bookmark to Chrome or Firefox, and paste the contents of either of these files as the URL for the bookmarket
-[With Header Row](AxureCopySitemap.Header.Bookmarklet.js?raw=1) | [Without Header Row](AxureCopySitemap.NoHeader.Bookmarklet.js?raw=1)
+
+[With Header Row](AxureCopySitemap.Header.Bookmarklet.js/Raw/) | [Without Header Row](AxureCopySitemap.NoHeader.Bookmarklet.js)
 
 ### Configure Settings
 Lines 3 to 6 at the beginning of the file configure the output
