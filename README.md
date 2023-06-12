@@ -5,9 +5,7 @@ This script is designed to be used with Axure RP prototypes, is run it will copy
 This script copies the contents of the **$axure.document.sitemap.rootNodes** object to the clipboard formatted as a TSV file appropriate for pasting into Excel or an Axure Repeater.  
 
 ## How to use 
-Edit the configuration variables at the top of the page to suit your liking. 
-
-### Quick Starts
+### Quickstart
 I have pregenerated bookmarklets, that outputs the sitemap in id, page, type, url order. Add a bookmark to Chrome or Firefox, and paste the contents of either of these files as the URL for the bookmarket.
 
 [With Header Row](AxureCopySitemap.Header.Bookmarklet.js) | [Without Header Row](AxureCopySitemap.NoHeader.Bookmarklet.js)
