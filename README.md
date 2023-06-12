@@ -1,5 +1,5 @@
 # AxureCopySitemap    
-This script is designed to be used with Axure RP prototypes, is run it will copy your full sitemap tree as a TSV-formatted file to your clipboard. 
+This script is designed to be used with [Axure RP](https://axure.com) (a phenomenal wireframing tool) prototypes, when it is run it will copy your published sitemap tree as a TSV-formatted file to your clipboard. 
 
 ## What is it
 This script copies the contents of the **$axure.document.sitemap.rootNodes** object to the clipboard formatted as a TSV file appropriate for pasting into Excel or an Axure Repeater.  
